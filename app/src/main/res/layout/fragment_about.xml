@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Fragment.AboutFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/about_img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/we_re_all_over_the_place"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/w_j_construction_inc_is_a_national_n_construction_company_specializing_in_n_general_contracting_construction_management_n_design_build_and_self_performing_n_walls_and_ceilings_services_throughout_n_our_history_we_ve_succeeded_by_providing_n_a_wide_range_of_construction_n_solutions_to_our_clients_and_delivering_a_whole_n_lot_of_quality_work"
+                    android:textAlignment="center"
+                    android:textColor="@color/menuText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/family_owned_nationally_known"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/we_are_a_family_owned_commercial_n_construction_management_firm_with_a_mission_n_to_deliver_on_our_promises_for_over_40_years_n_through_collaboration_and_expertise_n_we_have_guided_our_clients_through_the_n_construction_process_to_turn_their_n_vision_into_reality_we_operate_as_a_family_with_a_commitment_to_n_construct_buildings_that_are_measured_on_n_quality_and_value_we_have_stayed_true_to_our_n_humble_beginnings_and_believe_n_clients_continue_to_choose_us_n_because_of_our_experience_and_the_greater_value_we_provide_n_beginning_in_preconstruction_we_take_n_an_integrated_approach_that_supports_the_design_n_phase_allowing_a_seamless_transition_from_n_the_conceptual_phase_into_n_construction_our_family_atmosphere_has_been_integral_n_in_establishing_new_industry_relationships_n_as_we_have_expanded_our_n_office_location_and_our_body_of_work_n_our_way_of_connecting_with_others_n_continues_to_be_one_on_one_person_to_person_n"
+                    android:textAlignment="center"
+                    android:textColor="@color/menuText" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

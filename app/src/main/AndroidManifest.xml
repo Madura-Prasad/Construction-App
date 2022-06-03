@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maduraprasad.wjconstractor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WJConstractor">
+        <activity
+            android:name=".CalculateSalaryType"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar"></activity>
+        <activity
+            android:name=".CalculateSalary"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".Mark_AttendenceActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".Attendence_Activity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminDelete_MasonryActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminDeleteView_MasonryActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminDelete_SupervisorActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminDeleteView_SupervisorActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name="._Supervisor_Update_DeleteActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminView_MasonryActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminView_SupervisorActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".Admin_Add_Site_TypeActivity$Masonary_View_Activity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name="._Masonry_Update_DeleteActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name="._Masonry_AddActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".Supervisor_MainHomeActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name="._Supervisor_AddActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".Admin_Add_Site_TypeActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminViewActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminDeleteActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminMasonryActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminSupervisorActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminAddSiteActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminMainHomeActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".SupervisorSignInActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminSignUpActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".AdminSignInActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.WJConstractor.NoActionBarAndStatusBar" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

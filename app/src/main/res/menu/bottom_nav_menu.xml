@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fhome"
+        android:icon="@drawable/navhome"
+        android:title="Home"
+        app:cnb_backgroundColor="@color/signupBackground" />
+
+    <item
+        android:id="@+id/sign"
+        android:icon="@drawable/who"
+        android:title="I'm a"
+        app:cnb_backgroundColor="@color/menuback" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/more_info"
+        android:title="About"
+        app:cnb_backgroundColor="@color/bottomnavbackground" />
+</menu>
